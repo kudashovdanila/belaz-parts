@@ -5,9 +5,31 @@ body {
 .btn_blue {
   background-color: #1669b3;
   border: none;
-  font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
   @include bold;
   cursor: pointer;
+}
+
+.section {
+  padding: 100px 0;
+  @media (max-width: 560px) {
+    padding: 50px 0;
+  }
+}
+
+.section-title {
+  @include black;
+}
+
+.input {
+  padding-left: 30px;
+  width: 370px;
+  height: 70px;
+  background-color: #f2f2f2;
+  border: none;
+  text-transform: uppercase;
+  color: #818181;
+  font-size: 13px;
+  outline: none;
 }

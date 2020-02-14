@@ -1,0 +1,107 @@
+.price {
+  background: url(../img/price/bg.jpg) no-repeat center center / cover;
+  @media (max-width: 780px) {
+    background: #fff;
+  }
+  @media (max-width: 993px) {
+    background-size: 75%;
+    background-position: left bottom 20px;
+  }
+  &__content {
+    text-align: right;
+    max-width: 770px;
+    margin-left: auto;
+  }
+
+  &__title {
+    font-size: 30px;
+    margin: 0 0 60px;
+    @media (max-width: 993px) {
+      text-align: center;
+    }
+    @media (max-width: 463px) {
+      font-size: 26px;
+    }
+    @media (max-width: 560px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__button {
+    padding: 30.5px 108px;
+    font-size: 17px;
+    @media (max-width: 993px) {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    @media (max-width: 434px) {
+      padding: 30.5px 0;
+    }
+  }
+}
+
+.price-form {
+  @media (max-width: 993px) {
+    width: 60%;
+    margin: auto;
+  }
+  @media (max-width: 765px) {
+    width: 70%;
+  }
+  @media (max-width: 550px) {
+    width: 90%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    &:last-child {
+      justify-content: flex-end;
+      @media (max-width: 993px) {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-bottom: 0;
+      }
+    }
+    @media (max-width: 993px) {
+      flex-direction: column;
+    }
+  }
+
+  &__email {
+    background: #f2f2f2 url(../img/form-icons/envelope.png) no-repeat right 30px center;
+    @media (max-width: 993px) {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+  }
+
+  &__tel {
+    background: #f2f2f2 url(../img/form-icons/call.png) no-repeat right 30px center;
+    @media (max-width: 993px) {
+      width: 100%;
+    }
+  }
+
+  &__waiting {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  &__img {
+    display: block;
+    margin: 0 30px 0;
+    @media (max-width: 993px) {
+      margin-right: 0;
+    }
+  }
+}
