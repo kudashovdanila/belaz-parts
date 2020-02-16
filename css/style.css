@@ -70,6 +70,13 @@ body {
 
 .section-title {
   font-family: 'ProximaNovaBlack', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 20px;
 }
 
 .input {
@@ -101,13 +108,13 @@ body {
   height: 100px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .navbar__content {
     height: 60px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .navbar__logo {
     max-width: 140px;
   }
@@ -145,7 +152,7 @@ body {
   padding: 21px 28px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .call-group__button {
     font-size: 10px;
     padding: 15px 22px;
@@ -310,17 +317,12 @@ body {
 .price__title {
   font-size: 30px;
   margin: 0 0 60px;
+  text-align: right;
 }
 
 @media (max-width: 993px) {
   .price__title {
     text-align: center;
-  }
-}
-
-@media (max-width: 463px) {
-  .price__title {
-    font-size: 26px;
   }
 }
 
@@ -459,5 +461,97 @@ body {
   .price-form__img {
     margin-right: 0;
   }
+}
+
+.all-parts {
+  background-color: #08243e;
+}
+
+.all-parts__title {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 334px) {
+  .all-parts__title {
+    font-size: 32px;
+  }
+}
+
+.all-parts__subtitle {
+  color: #ffffff;
+  max-width: 385px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 993px) {
+  .all-parts__subtitle {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .all-parts__subtitle {
+    margin-bottom: 0;
+  }
+}
+
+.all-parts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 993px) {
+  .all-parts-list {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.all-parts-list__item {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 993px) {
+  .all-parts-list__item {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 627px) {
+  .all-parts-list__item {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-top: 60px;
+  }
+}
+
+.all-parts-list__img-wrapper {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.all-parts-list__text {
+  max-width: 215px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
