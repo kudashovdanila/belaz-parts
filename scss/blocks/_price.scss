@@ -59,10 +59,10 @@
     margin-bottom: 40px;
     &:last-child {
       justify-content: flex-end;
+      margin-bottom: 0;
       @media (max-width: 993px) {
         flex-direction: column-reverse;
         align-items: flex-end;
-        margin-bottom: 0;
       }
     }
     @media (max-width: 993px) {
