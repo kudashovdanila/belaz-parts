@@ -23,11 +23,11 @@
           <div class="call-group">
 
             <div class="phones">
-              <a href="tel:+78182474725" class="phones__number">+7 (818) 247-47-25</a> <br>
-              <a href="tel:+78182474725" class="phones__number">+7(818) 247-47-25</a>
+              <a href="tel:+78182474725" class="phones__number tel">+7 (818) 247-47-25</a> <br>
+              <a href="tel:+78182474725" class="phones__number tel">+7(818) 247-47-25</a>
             </div>
 
-            <button class="call-group__button btn_blue">Заказать звонок</button>
+            <button class="call-group__button btn_blue btn">Заказать звонок</button>
 
           </div>
 
@@ -76,10 +76,10 @@
       <div class="container">
         <div class="price__content">
           <h2 class="price__title section-title">Получите прайс прямо&nbsp;сейчас <br> на электронную почту!</h2>
-          <div class="price-form">
+          <form method="GET" class="price-form">
             <div class="price-form__row">
               <input type="email" class="price-form__email input" placeholder="Введите ваш e-mail">
-              <input type="tel" class="price-form__tel input" placeholder="Введите ваш телефон">
+              <input type="tel" class="price-form__tel input phone-input" placeholder="Введите ваш телефон">
             </div>
             <div class="price-form__row">
               <div class="price-form__waiting">
@@ -89,8 +89,8 @@
                 </div>
                 <img src="img/form-icons/clock.svg" alt="clock" class="price-form__img">
             </div>
-                <button class="btn_blue price__button">Получить прайс</button>
-            </div>
+                <button class="btn_blue btn price__button">Получить прайс</button>
+          </form>
           </div>
         </div>
       </div>
@@ -134,50 +134,64 @@
       </div>
     </section>
 
+    <section class="part-search section">
+      <div class="container">
+        <div class="part-search__content">
+          <h2 class="part-search__title section-title">Ищете конкретную деталь?</h2>
+          <div class="part-search__subtitle section-subtitle">Если у Вас есть артикул - введите его в поле ниже и получите цену
+            ПРЯМО СЕЙЧАС!</div>
+          <form action="GET" class="part-search-form">
+            <input type="text" placeholder="Введите артикул детали" class="part-search-form__vendor-code part-search-form__input input">
+            <input type="tel" placeholder="Введите ваш телефон" class="part-search-form__tel phone-input part-search-form__input input">
+            <button class="part-search-form__btn btn_yellow btn">Узнать цену</button>
+          </form>
+          <div class="part-search__recall">
+            <div class="part-search__recall-info">Мы перезвоним вам в течение 3 минут и назовем цену детали!</div>
+            <div class="part-search__recall-yourself">
+              Или Вы можете перезвонить нам сами: <br>
+              <a href="tel:+78182474725" class="part-search__phone tel">+7 (818) 247-47-25</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- <section class=" section">
       <div class="container">
         <div class="__content">
-          <h2 class=" section-title"></h2>
+          <h2 class="__title section-title"></h2>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class=" section">
+    <!-- <section class=" section">
       <div class="container">
         <div class="__content">
-          <h2 class=" section-title"></h2>
+          <h2 class="__title section-title"></h2>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class=" section">
+    <!-- <section class=" section">
       <div class="container">
         <div class="__content">
-          <h2 class=" section-title"></h2>
+          <h2 class="__title section-title"></h2>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class=" section">
+    <!-- <section class=" section">
       <div class="container">
         <div class="__content">
-          <h2 class=" section-title"></h2>
+          <h2 class="__title section-title"></h2>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class=" section">
+    <!-- <section class=" section">
       <div class="container">
         <div class="__content">
-          <h2 class=" section-title"></h2>
-        </div>
-      </div>
-    </section>
-
-    <section class=" section">
-      <div class="container">
-        <div class="__content">
-          <h2 class=" section-title"></h2>
+          <h2 class="__title section-title"></h2>
         </div>
       </div>
     </section> -->

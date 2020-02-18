@@ -2,13 +2,27 @@ body {
   @include reg;
 }
 
-.btn_blue {
-  background-color: #1669b3;
+.tel {
+  @include black;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn {
   border: none;
   text-transform: uppercase;
   color: #ffffff;
   @include bold;
   cursor: pointer;
+}
+
+.btn_blue {
+  background-color: #1669b3;
+}
+
+.btn_yellow {
+  background-color: #f7b516;
+  font-size: 17px;
 }
 
 .section {
@@ -39,4 +53,8 @@ body {
   color: #818181;
   font-size: 13px;
   outline: none;
+}
+
+.phone-input {
+  background: #f2f2f2 url(../img/form-icons/call.png) no-repeat right 30px center;
 }

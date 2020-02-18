@@ -67,19 +67,19 @@
     }
     @media (max-width: 993px) {
       flex-direction: column;
+      margin-bottom: 30px;
     }
   }
 
   &__email {
     background: #f2f2f2 url(../img/form-icons/envelope.png) no-repeat right 30px center;
     @media (max-width: 993px) {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       width: 100%;
     }
   }
 
   &__tel {
-    background: #f2f2f2 url(../img/form-icons/call.png) no-repeat right 30px center;
     @media (max-width: 993px) {
       width: 100%;
     }

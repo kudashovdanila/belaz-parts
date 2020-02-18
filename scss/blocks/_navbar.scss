@@ -47,11 +47,8 @@
   font-size: 18px;
   text-align: right;
   margin-right: 28px;
-  @include black;
   &__number {
     display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
     margin-bottom: 10px;
     &:last-child {
       margin: 0;
