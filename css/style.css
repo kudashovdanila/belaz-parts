@@ -70,9 +70,21 @@ body {
   background-color: #1669b3;
 }
 
+.btn_blue:hover {
+  background-color: #135c9c;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 .btn_yellow {
   background-color: #f7b516;
   font-size: 17px;
+}
+
+.btn_yellow:hover {
+  background-color: #eba908;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .section {
@@ -110,6 +122,24 @@ body {
 
 .phone-input {
   background: #f2f2f2 url(../img/form-icons/call.png) no-repeat right 30px center;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d4d4d4;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #373B44;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4286f4), to(#373B44));
+  background: linear-gradient(to bottom, #4286f4, #373B44);
+  border-radius: 8px;
+  border: 2px solid #d4d4d4;
 }
 
 .navbar {
@@ -650,5 +680,86 @@ body {
     width: 100%;
     padding: 25px 0;
   }
+}
+
+.safety__content {
+  text-align: center;
+}
+
+.safety__title {
+  font-size: 36px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 391px) {
+  .safety__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .safety__title {
+    margin-bottom: 80px;
+  }
+}
+
+.safety-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 993px) {
+  .safety-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.safety-list__item {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+}
+
+@media (max-width: 993px) {
+  .safety-list__item {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-top: 60px;
+  }
+  .safety-list__item:first-child {
+    margin-top: 0;
+  }
+}
+
+.safety-list__text {
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 342px;
+}
+
+.safety-list__more {
+  display: block;
+  font-size: 18px;
+  font-family: 'ProximaNovaBold', sans-serif;
+  color: #000;
+  -webkit-text-decoration: underline #B0B0B0;
+          text-decoration: underline #B0B0B0;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */

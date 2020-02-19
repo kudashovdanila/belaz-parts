@@ -18,11 +18,19 @@ body {
 
 .btn_blue {
   background-color: #1669b3;
+  &:hover {
+    background-color: darken(#1669b3, 5%);
+    transition: all .2s;
+  }
 }
 
 .btn_yellow {
   background-color: #f7b516;
   font-size: 17px;
+  &:hover {
+    background-color: darken(#f7b516, 5%);
+    transition: all .2s;
+  }
 }
 
 .section {

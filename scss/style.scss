@@ -10,9 +10,13 @@
 // Настройки интерфейса
 @import 'interface';
 
+// Стилизация скроллбара
+@import 'scrollbar';
+
 // Блоки
 @import 'blocks/navbar';
 @import 'blocks/hero';
 @import 'blocks/price';
 @import 'blocks/all-parts';
 @import 'blocks/part-search';
+@import 'blocks/safety';
