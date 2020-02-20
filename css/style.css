@@ -142,6 +142,44 @@ body {
   border: 2px solid #d4d4d4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.arrowUp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(130deg, #2d2722 50%, #398a99 50%);
+  background-size: 300%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media (max-width: 768px) {
+  .arrowUp {
+    background: #133a5f;
+    bottom: 5%;
+    right: 3%;
+  }
+}
+
+.arrowUp:hover {
+  background-position: 100% 0;
+}
+
 .navbar {
   background-color: #191919;
 }
