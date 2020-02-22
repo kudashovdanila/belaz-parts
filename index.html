@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <header class="header">
+  <header id="scroll" class="header">
 
     <div class="navbar">
       <div class="container">
@@ -230,22 +230,40 @@
           <div class="questions__subtitle section-subtitle">На Ваши вопросы отвечает Эдуард</div>
           <div class="questions-wrapper">
             <ol class="questions-list">
-              <li class="questions-list__item"><span href="#" class="questions-list__link">Как заказать деталь
-                  правильно?</span></li>
-              <li class="questions-list__item"><span href="#" class="questions-list__link">Что делать, если запчасть не
-                  понадобилась?</span></li>
-              <li class="questions-list__item"><span href="#" class="questions-list__link">Можете ли Вы установить
-                  деталь?</span></li>
-              <li class="questions-list__item"><span href="#" class="questions-list__link">В чем преимущества оригинальных
-                  деталей?</span></li>
-              <li class="questions-list__item"><span href="#" class="questions-list__link">В чем преимущества оригинальных
-                  деталей?</span></li>
+              <li class="questions-list__item">
+                <div data-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                  class="pop-item questions-list__link">Как
+                  заказать деталь
+                  правильно?
+                </div>
+              </li>
+              <li class="questions-list__item">
+                <div data-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="pop-item questions-list__link">Что делать, если запчасть не
+                  понадобилась?
+                </div>
+              </li>
+              <li class="questions-list__item">
+                <div data-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="pop-item questions-list__link">Можете ли Вы установить
+                  деталь?
+                </div>
+              </li>
+              <li class="questions-list__item">
+                <div data-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="pop-item questions-list__link">В чем преимущества оригинальных
+                  деталей?
+                </div>
+              </li>
+              <li class="questions-list__item">
+                <div data-text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="pop-item questions-list__link">В чем преимущества оригинальных
+                  деталей?
+                </div>
+              </li>
               <a href="#" class="questions-list__more questions-list-more">
                 <img src="img/questions/reload.svg" alt="reload"><span class="questions-list-more__text">Еще
                   вопросы</span>
               </a>
             </ol>
             <div class="questions-director">
+              <img class="questions-director__img" src="img/questions/director.jpg" alt="director">
               <div class="questions-director__name">Эдуард Викторович, <br>
                 Директор ООО "Eddie`s-Car"</div>
             </div>
@@ -283,7 +301,8 @@
   </main>
 
 
-  <a href="#" class="arrowUp"><img src="img/scrollUp/arrow-up.svg" alt="arrow"></a>
+  <a href="#scroll" class="arrowUp" onclick="slowScroll('#scroll')"><img src="img/scrollUp/arrow-up.svg"
+      alt="arrow"></a>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
