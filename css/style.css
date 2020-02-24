@@ -1084,4 +1084,123 @@ body {
 .pop-block-close {
   color: #15151e;
 }
+
+.comfort__title {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.comfort__subtitle {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 810px) {
+  .comfort__subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+.comfort-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.comfort-list__item {
+  text-align: center;
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+}
+
+@media (max-width: 810px) {
+  .comfort-list__item {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .comfort-list__item:not(:first-child) {
+    margin-top: 60px;
+  }
+}
+
+.comfort-list__text {
+  font-size: 18px;
+  max-width: 220px;
+  margin: 50px auto 0;
+}
+
+.comfort-list__img-wrapper {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+}
+
+.storage {
+  background-color: #0b3554;
+}
+
+.storage__title {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 361px) {
+  .storage__title {
+    font-size: 32px;
+  }
+}
+
+.storage__subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 650px;
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 1182px) {
+  .storage__subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+.storage-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.storage-list__item {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+  text-align: center;
+}
+
+@media (max-width: 1182px) {
+  .storage-list__item {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .storage-list__item:not(:first-child) {
+    margin-top: 60px;
+  }
+}
+
+.storage-list__img {
+  height: auto;
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
