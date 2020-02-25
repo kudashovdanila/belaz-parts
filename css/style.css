@@ -1256,4 +1256,86 @@ body {
   max-width: 310px;
   margin: 40px auto 0;
 }
+
+.consultation {
+  background: #0d324d url(../img/consultation/bg.png) no-repeat bottom right;
+}
+
+.consultation__content {
+  text-align: center;
+}
+
+.consultation__title {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 412px) {
+  .consultation__title {
+    font-size: 26px;
+  }
+}
+
+.consultation__call {
+  margin-bottom: 60px;
+}
+
+.consultation-call__text {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.consultation-call__phone {
+  font-size: 30px;
+}
+
+.consultation-form {
+  max-width: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media (max-width: 993px) {
+  .consultation-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 993px) {
+  .consultation-form__tel {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 393px) {
+  .consultation-form__tel {
+    width: 100%;
+  }
+}
+
+.consultation-form__btn {
+  padding: 25px 88px 26px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 393px) {
+  .consultation-form__btn {
+    width: 100%;
+    padding: 25px 40px 26px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
