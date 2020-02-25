@@ -1338,4 +1338,33 @@ body {
     padding: 25px 40px 26px;
   }
 }
+
+.office {
+  background: #ffffff url(../img/office/bg.png) no-repeat center center/cover;
+}
+
+.office__content {
+  text-align: center;
+}
+
+.office__title {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 391px) {
+  .office__title {
+    font-size: 26px;
+  }
+}
+
+.office__address {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.office__phone {
+  font-size: 24px;
+  color: #000000;
+}
 /*# sourceMappingURL=style.css.map */
