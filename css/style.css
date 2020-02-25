@@ -1370,6 +1370,10 @@ body {
   color: #000000;
 }
 
+.map {
+  display: block;
+}
+
 .footer {
   background-color: #191919;
 }
