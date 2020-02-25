@@ -85,6 +85,7 @@
 .questions-list-more {
   &__text {
     margin-left: 30px;
+    cursor: pointer;
     @media (max-width: 461px) {
       margin-left: 10px;
     }
