@@ -1,0 +1,34 @@
+// Базовые настройки сетки
+@import 'grid';
+
+// Шрифты
+@import 'fonts';
+
+// Цвета
+@import 'colors';
+
+// Настройки интерфейса
+@import 'interface';
+
+// Стилизация скроллбара
+@import 'scrollbar';
+
+// Прокрутка страницы
+@import 'scroll-up';
+
+// Блоки
+@import 'blocks/navbar';
+@import 'blocks/hero';
+@import 'blocks/price';
+@import 'blocks/all-parts';
+@import 'blocks/part-search';
+@import 'blocks/safety';
+@import 'blocks/bonuses';
+@import 'blocks/questions';
+@import 'blocks/comfort';
+@import 'blocks/storage';
+@import 'blocks/service';
+@import 'blocks/consultation';
+@import 'blocks/office';
+@import 'blocks/map';
+@import 'blocks/footer';

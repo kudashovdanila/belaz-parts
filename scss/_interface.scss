@@ -1,0 +1,68 @@
+body {
+  @include reg;
+}
+
+.tel {
+  @include black;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn {
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  @include bold;
+  cursor: pointer;
+}
+
+.btn_blue {
+  background-color: #1669b3;
+  &:hover {
+    background-color: darken(#1669b3, 5%);
+    transition: all .2s;
+  }
+}
+
+.btn_yellow {
+  background-color: #f7b516;
+  font-size: 17px;
+  &:hover {
+    background-color: darken(#f7b516, 5%);
+    transition: all .2s;
+  }
+}
+
+.section {
+  padding: 100px 0;
+  @media (max-width: 560px) {
+    padding: 50px 0;
+  }
+}
+
+.section-title {
+  @include black;
+  text-align: center;
+  margin: 0;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.input {
+  padding-left: 30px;
+  width: 370px;
+  height: 70px;
+  background-color: #f2f2f2;
+  border: none;
+  text-transform: uppercase;
+  color: #818181;
+  font-size: 13px;
+  outline: none;
+}
+
+.phone-input {
+  background: #f2f2f2 url(../img/form-icons/call.png) no-repeat right 30px center;
+}

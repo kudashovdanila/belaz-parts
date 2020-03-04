@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #191919;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    @media (max-width: 700px) {
+      height: 60px;
+    }
+   }
+
+  &__logo {
+    @media (max-width: 700px) {
+      max-width: 140px;
+    }
+  }
+  &__work-time {
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 160px;
+    @media (max-width: 993px) {
+      display: none;
+    }
+    &_bold {
+      @include bold;
+    }
+  }
+}
+
+.call-group {
+  display: flex;
+  align-items: center;
+  &__button {
+    font-size: 12px;
+    padding: 21px 28px;
+    @media (max-width: 700px) {
+      font-size: 10px;
+      padding: 15px 22px;
+    }
+  }
+}
+
+.phones {
+  font-size: 18px;
+  text-align: right;
+  margin-right: 28px;
+  &__number {
+    display: inline-block;
+    margin-bottom: 10px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
