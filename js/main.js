@@ -87,3 +87,22 @@ function slowScroll(id) {
   return false;
 }
 
+// Preloader
+
+var ball = document.getElementById("load-wrap");
+
+function preload(el) {
+  el.style.opacity = 1;
+  var interball = setInterval(function () {
+    el.style.opacity = el.style.opacity - 0.05;
+    if (el.style.opacity <= 0.05) {
+      clearInterval(interball);
+      ball.style.display = "none";
+    }
+  }, 16);
+}
+window.onload = function () {
+  setTimeout(function () {
+    preload(ball);
+  }, 2000); // ожидание после загрузки страницы
+};
